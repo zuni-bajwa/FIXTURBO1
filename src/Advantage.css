@@ -1,0 +1,152 @@
+ .bg-overlay {
+margin-top: 210px;
+background-size: cover;
+position: relative;
+z-index: 1;
+background-image: url('./img/back.png');
+}
+.bg-overlay:after {
+content: "";
+position: absolute;
+  inset: 0;
+ z-index: -1;
+ 
+}
+.face {
+transform: translateY(-164px);
+margin-bottom: -164px;
+}
+.container{
+max-width: 1140px;
+}
+@media (min-width: 992px) {
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+
+
+
+.face-wrap {
+text-align: center;
+background: #fff;
+box-shadow: 0 -10px 100px rgba(0, 6, 18, .08);
+border-radius: 5px;
+ padding-top: 70px;
+ padding-bottom: 70px;
+ padding-left: 70px;
+ padding-right: 70px;
+}
+
+.face-wrap .thumb {
+margin-bottom: 34px;
+}
+.face-wrap .detail h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+.h2, h2 {
+font-size: 50px;
+line-height: 1.1em;
+}
+p {
+font-family: var(--body-font);
+margin: 0 0 18px;
+color: #171717;
+line-height: 1.75;
+}
+
+.swip  {
+margin-left: auto;
+margin-right: auto;
+position: relative;
+overflow: hidden;
+list-style: none;
+padding: 0;
+z-index: 1;
+display: block;
+}
+.swip-wrapper {
+position: relative;
+width: 100%;
+height: 100%;
+z-index: 1;
+display: flex;
+transition-property: transform;
+transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+box-sizing: content-box;
+}
+
+ .card{
+    padding: 20px;
+ }
+   .slick-slide>div{
+    margin: 0 10px;
+   }
+
+
+
+     /* Global Button Styles */
+a.animated-buttonn:link, a.animated-buttonn:visited {
+  -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s ease;
+}
+a.animated-buttonn:link:after, a.animated-buttonn:visited:after {
+ content: "";
+ position: absolute;
+ height: 0%;
+ left: 50%;
+ top: 50%;
+ width: 150%;
+ z-index: -1;
+ -webkit-transition: all 0.75s ease 0s;
+ -moz-transition: all 0.75s ease 0s;
+ -o-transition: all 0.75s ease 0s;
+ transition: all 0.75s ease 0s;
+}
+a.animated-buttonn:link:hover, a.animated-buttonn:visited:hover {
+ color:  black;
+ text-shadow: none;
+}
+a.animated-buttonn:link:hover:after, a.animated-buttonn:visited:hover:after {
+ height: 450%;
+}
+a.animated-buttonn:link, a.animated-buttonn:visited {
+  
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+ 
+a.animated-buttonn.victoria-one:after {
+ background: #fff;
+ color: black;
+ -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+ -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+ -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+ transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

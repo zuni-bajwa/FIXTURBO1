@@ -1,0 +1,91 @@
+.marquee{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.slider__marquee {
+    overflow: hidden;
+    margin: 0 0 -.5em;
+}
+.rfm-marquee-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+   --pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;
+    
+}
+
+
+.rfm-marquee {
+    flex: 0 0 auto;
+    min-width: var(--min-width);
+   --play: running; --direction: normal; --duration: 48.485625s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+    animation-play-state: var(--play);
+    animation-delay: var(--delay);
+    animation-direction: var(--direction);
+}
+.rfm-initial-child-container {
+    flex: 0 0 auto;
+    display: flex;
+    min-width: auto;
+    flex-direction: row;
+    align-items: center;
+}
+.slider__marquee .item {
+    display: inline-flex;
+    margin-right: 40px;
+    padding: 10px 0;
+}
+.slider__marquee .item a {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+a {
+    color: var(--theme-color);
+    text-decoration: none;
+    outline: 0;
+    transition: all .4s ease;
+}
+.slider__marquee .item a span {
+    display: inline-block;
+    line-height: 1;
+}
+
+.slider__marquee .item a span.text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px  black;
+}
+.slider__marquee .item a span {
+    display: inline-block;
+    line-height: 1;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.slider__marquee .item a {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+.rfm-child{
+    --transform: none;
+}
+.item{
+    animation: 10s move linear infinite;
+}
+@keyframes  move {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}

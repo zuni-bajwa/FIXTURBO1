@@ -1,0 +1,230 @@
+/*second section */
+.testimonial-area-1{
+    background-image: url(./img/repair2.png);
+}
+.cta-area-0 {
+    position: relative;
+    margin-bottom: -90px;
+}
+.cta-area-0 .cta1-bg-thumb0 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 83%;
+    border-radius: 5px 0 0 5px;
+}
+.cta-area-0 .cta1-bg-thumb0 img {
+   width:  100%;
+   height :100%;
+   object-fit: cover;
+ 
+}
+.cta-area-0 .cta1-bg-thumb0:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:   #e4002b;
+    mix-blend-mode: multiply;
+}
+.cta-area-0 .cta-wrap1 {
+    padding: 80px 0 67px 80px;
+}
+.title-area0 {
+    margin-bottom: calc(var(--section-title-space) - 13px);
+    position: relative;
+    z-index: 2;
+}
+.title-area0 .sub-title {
+    margin-top: -.2em;
+}
+.text-white {
+    color: #fff !important;
+}
+.sub-title0 {
+    display: block;
+    line-height: 1.3;
+    color: #e4002b; 
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    font-weight: 700;
+   
+    margin-bottom: 20px;
+    letter-spacing: .07em;
+}
+.sub-title0.style2:after {
+    margin-right: 0;
+    margin-left: 12px;
+    display: inline-block;
+   color: #e4002b;
+}
+.sub-title0.text-white:after, .sub-title.text-white:before {
+    background: #fff;
+}
+.text-white {
+    color: #fff!important;
+}
+.sec-title0 {
+     margin-top: -.04em;
+    font-weight: 900;
+    line-height: 1.4;
+    position: relative;
+}
+.title-area0 {
+    margin-bottom: calc(var(--section-title-space) - 13px);
+    position: relative;
+    z-index: 2;
+}
+.btn {
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    border-radius: 5px !important;
+    text-align: center;
+    background-color: #e4002b;  
+    color:  #fff;
+    font-family: var(--title-font);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 24px 30px 20px;
+    overflow: hidden;
+}
+.btn:before {
+    top: -2em;
+    left: -2em;
+}
+.btn:after, .btn:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+ 
+    transition: 1s ease;
+}
+.btn i {
+    font-size: 14px;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.testimonial-area-1 {
+    padding-top: 150px;
+}
+.overflow-hidden {
+    overflow: hidden !important;
+}
+.testimonial-thumb1 {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.testimonial-thumb1 img {
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.carousel-item{
+    width: 657px; margin-right: 20px; 
+}
+.testi-card {
+    background: #232323;
+    border-radius: 5px;
+    padding: 60px;
+}
+.testi-card .testi-card-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.testi-card .testi-profile-title {
+    color:  #fff;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    margin-top: -.3em;
+}
+.h4, h4 {
+    font-size: 24px;
+    line-height: 1.333;
+}
+.testi-card .testi-card_text, .testi-card .testi-profile-desig {
+    font-weight: 400;
+    font-family: var(--title-font);
+    color:  #fff;
+    opacity: .7;
+}
+.testi-card .testi-profile-desig {
+    font-size: 18px;
+}
+.testi-card .testi-card_text {
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+.testi-card .testi-card_text, .testi-card .testi-profile-desig {
+    font-weight: 400;
+    font-family: var(--title-font);
+    color:  #fff;
+    opacity: .7;
+}
+p {
+    font-family: var(--body-font);
+    margin: 0 0 18px;
+    color:  black;
+    line-height: 1.75;
+}
+.testimonialOne.arrow {
+    z-index: 9;
+}
+.testimonialOne.arrow {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    gap: 45px;
+    bottom: 100px;
+   right: 80px;
+    left: auto;
+    justify-content: flex-end;
+}
+.testimonialOne.arrow .testimonialOne-button-next, .testimonialOne.arrow .testimonialOne-button-prev {
+    font-size: 20px;
+    cursor: pointer;
+    color:  #e4002b;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+.testimonialOne.arrow .testimonialOne-button-next, .testimonialOne.arrow .testimonialOne-button-prev {
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--theme-color);
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+.star{
+    color: yellow;
+}
+
+
