@@ -12,20 +12,20 @@ import quote from './img/quote.svg'
 const Repair = () => {
   return (
      <>
-       <div class="cta-area-0 overflow-hidden">
+       <div class="cta-area-0 ">
   <div class="cta1-bg-thumb0">
     <img src={repair1} alt=""/>
   </div>
   <div class="container">
-    <div class="cta-wrap1">
-        <div class="row justify-content-md-between align-items-center">
+    <div class="cta-wrap1 ">
+        <div class="row justify-content-md-between d-flex  align-items-center justify-content-center">
   <div class="col-lg-6 col-md-8">
-    <div class="title-area mb-md-0">
+    <div class="title-area0 mb-md-0">
  <span class="sub-title0 style2 text-white">
 Contact Us
  </span>
  <h2 class="sec-title0 text-white mb-0">
-    Where Engines Roar and Problems Soar
+    Where Engines Roar and  <br />Problems Soar
  </h2>
     </div>
   </div>

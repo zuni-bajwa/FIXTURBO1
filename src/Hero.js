@@ -31,8 +31,8 @@ import './Hero.css'
         <div>
        
         <div class="container ">
-            <div class="row gx-60 align-items-center flex-row-reverse  ">
-    <div class="col-xl-7 text-xl-center content1 side ">
+            <div class="row flex-row-reverse side ">
+    <div class="col-xl-7 text-xl-center content1 side  ">
    <div class="about-thumb3 mb-40 mb-xl-0">
 
     <div className='pulse'>

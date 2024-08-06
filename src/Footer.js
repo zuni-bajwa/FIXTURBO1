@@ -8,15 +8,16 @@ import './Footer.css'
  const Footer = () => {
   return (
     <div>
-        <div class="container">
-        <div class="fotter-top-1 bg-theme">
-            <div class="logo">
+        <div class="container ">
+        <div class="fotter-top-1 bg-theme row">
+        
+          <div class="logo col">
                 <a href="#">
                     <img src={fixturbo} alt=""/>
                 </a>
             </div>
 
-            <div className='call-media-wrap'>
+            <div className='call-media-wrap col'>
                 <div className='icon'>
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                <g clip-path="url(#clip0_272_696)">
@@ -42,7 +43,7 @@ import './Footer.css'
                    </h4>
                 </div>
                </div>
-               <div class="social-btn">
+               <div class="social-btn col">
                 <a href="#">
                 <FontAwesomeIcon icon={ faFacebook  }   className='li'/>
    
@@ -56,7 +57,9 @@ import './Footer.css'
    
                 </a>
                </div>
-               
+         
+
+     
         </div>
     </div>
 

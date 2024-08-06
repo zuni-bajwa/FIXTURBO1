@@ -22,7 +22,7 @@ const Haed = () => {
      }, [classes.length]);
    
   return (
-    <div  className={`top flex-row-reverse  zuni1 ${classes[index]}`}>
+    <div  className={`top flex-row-reverse  zuni1  ${classes[index]}`}>
       <div className='container'>
  <div class="row justify-content-center justify-content-lg-between align-items-center gy-2" >
   <div class="col-auto  d-none d-lg-block" >

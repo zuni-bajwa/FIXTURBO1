@@ -17,6 +17,16 @@ const Advantage = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 768,  
+            settings: {
+              slidesToShow: 1,  
+              slidesToScroll: 1,
+              
+            },
+          }, 
+        ],
     }
   return (
     <ScrollTrigger onEnter={()=>setcount(true)} onExit={()=>setcount(  true)} >
@@ -146,7 +156,7 @@ const Advantage = () => {
       <div className="mt-5  ">
       <Slider {...settings}>
         {data.map((d) => (
-          <div class="card slider-card gap-10" style={{ width: '336px'  }} >
+          <div class="card slider-card " style={{ width: '336px'  }} >
             <div>
             <img src= {d.img} class="card-img-top" alt="..."  />
 

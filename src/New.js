@@ -1,4 +1,11 @@
-import React from 'react'
+
+
+
+
+
+
+
+ /*import React from 'react'
 import person1 from './img/person1.png'
 import person2 from './img/person2.png'
 import { faLinkedin, faTwitter, faInstagram, faFacebook  } from '@fortawesome/free-brands-svg-icons';
@@ -31,7 +38,7 @@ const New = () => {
 
             <div class="row gx-30 global-carousel team-slider2">
 
-            <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
+            <div class="swiper swiper-initialized swiper-horizontal mySwiper ">
 <div class="swiper-wrapper">
     <div class="swiper-slide swiper-slide-active"  >
     <div>
@@ -116,29 +123,48 @@ const New = () => {
 
 
 
-        <div class="swiper-slide swiper-slide-active" >
-            <div>
-                <div class="team-card style2">
-               <div class="team-card_img">
-        <img src={person3} alt=""/>
-               </div>
-               <div class="team-card_content">
-         <h4 class="team-card_title">
-            <a href=""> Darrell Steward</a>
-         </h4>
-         <span class="team-card_desig">Software Developer</span>
-         <div class="team-social_wrap">
-        <div class="social-btn style2">
-          <a href="">linedin</a>
-          <a href="">facebook</a> 
-          <a href="">insta</a>
-          <a href="">twitter</a>
+         
+            <div class="swiper-slide swiper-slide-active"  >
+    <div>
+        <div class="team-card style2">
+       <div class="team-card_img">
+<img src= {person1} alt=""/>
+       </div>
+       <div class="team-card_content">
+ <h4 class="team-card_title">
+    <a href="">Darrell Steward</a>
+ </h4>
+ <span class="team-card_desig">Software Developer</span>
+ <div class="team-social_wrap ">
+<div  class="social-btn style2">
+ 
+   <a href="">
+  <FontAwesomeIcon icon={faLinkedin} className=' ' />
+
+  </a>
+  <a href="">
+  <FontAwesomeIcon icon={faFacebook} className='side-icon ch' />
+
+    </a> 
+  <a href="">
+  <FontAwesomeIcon icon={faInstagram} className='side-icon ch' />
+
+   </a>
+   <FontAwesomeIcon icon={faTwitter} className='side-icon ch' />
+
+  <a href=""> 
+
+  </a>
+</div>
+ </div>
+       </div>
         </div>
-         </div>
-               </div>
-                </div>
-            </div>
-            </div>
+    </div>
+    </div>
+
+
+
+
 
 
 </div>
@@ -152,4 +178,148 @@ const New = () => {
   )
 }
 
+export default New  */
+import React from 'react'
+import person1 from './img/person1.png'
+import person2 from './img/person2.png'
+import { faLinkedin, faTwitter, faInstagram, faFacebook  } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import person3 from './img/person3.png'
+import './New.css'
+const New = () => {
+  return (
+   <div className='container'>
+ <div class="card-group">
+  <div class="card1">
+  <div class="team-card style2">
+       <div class="team-card_img">
+<img src= {person1} alt=""/>
+       </div>
+       <div class="team-card_content">
+ <h4 class="team-card_title">
+    <a href="">Darrell Steward</a>
+ </h4>
+ <span class="team-card_desig">Software Developer</span>
+ <div class="team-social_wrap ">
+<div  class="social-btn style2">
+ 
+   <a href="">
+  <FontAwesomeIcon icon={faLinkedin} className=' ' />
+
+  </a>
+  <a href="">
+  <FontAwesomeIcon icon={faFacebook} className='side-icon ch' />
+
+    </a> 
+  <a href="">
+  <FontAwesomeIcon icon={faInstagram} className='side-icon ch' />
+
+   </a>
+   <FontAwesomeIcon icon={faTwitter} className='side-icon ch' />
+
+  <a href=""> 
+
+  </a>
+</div>
+ </div>
+ </div>
+    
+
+   
+    
+  </div>
+  </div>
+  
+  <div class="card1">
+  <div class="team-card style2">
+       <div class="team-card_img">
+<img src= {person1} alt=""/>
+       </div>
+       <div class="team-card_content">
+ <h4 class="team-card_title">
+    <a href="">Darrell Steward</a>
+ </h4>
+ <span class="team-card_desig">Software Developer</span>
+ <div class="team-social_wrap ">
+<div  class="social-btn style2">
+ 
+   <a href="">
+  <FontAwesomeIcon icon={faLinkedin} className=' ' />
+
+  </a>
+  <a href="">
+  <FontAwesomeIcon icon={faFacebook} className='side-icon ch' />
+
+    </a> 
+  <a href="">
+  <FontAwesomeIcon icon={faInstagram} className='side-icon ch' />
+
+   </a>
+   <FontAwesomeIcon icon={faTwitter} className='side-icon ch' />
+
+  <a href=""> 
+
+  </a>
+</div>
+ </div>
+ </div>
+    
+
+   
+    
+  </div>
+  </div>
+
+
+
+
+  <div class="card1">
+  <div class="team-card style2">
+       <div class="team-card_img">
+<img src= {person1} alt=""/>
+       </div>
+       <div class="team-card_content">
+ <h4 class="team-card_title">
+    <a href="">Darrell Steward</a>
+ </h4>
+ <span class="team-card_desig">Software Developer</span>
+ <div class="team-social_wrap ">
+<div  class="social-btn style2">
+ 
+   <a href="">
+  <FontAwesomeIcon icon={faLinkedin} className=' ' />
+
+  </a>
+  <a href="">
+  <FontAwesomeIcon icon={faFacebook} className='side-icon ch' />
+
+    </a> 
+  <a href="">
+  <FontAwesomeIcon icon={faInstagram} className='side-icon ch' />
+
+   </a>
+   <FontAwesomeIcon icon={faTwitter} className='side-icon ch' />
+
+  <a href=""> 
+
+  </a>
+</div>
+ </div>
+ </div>
+    
+
+   
+    
+  </div>
+  </div>
+
+  </div>
+   </div>
+      
+  )
+}
+
 export default New
+
+ 

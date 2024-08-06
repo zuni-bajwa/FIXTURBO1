@@ -11,7 +11,7 @@
 import icon from './img/icon.svg'
  const Try1 = () => {
    return (
-     <div className='service-area-1 bg-smoke overflow-hidden space-top'>
+     <div className='service-area-1 bg-smoke space-top'>
        <div className='container'>
         <div className='row justify-content-center'>
             <div className='col-lg-6'>

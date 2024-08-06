@@ -5,6 +5,7 @@
 .cta-area-0 {
     position: relative;
     margin-bottom: -90px;
+    margin-top: 50px;
 }
 .cta-area-0 .cta1-bg-thumb0 {
     position: absolute;
@@ -12,7 +13,7 @@
     top: 0;
     bottom: 0;
     overflow: hidden;
-    width: 83%;
+    width: 90%;
     border-radius: 5px 0 0 5px;
 }
 .cta-area-0 .cta1-bg-thumb0 img {
@@ -29,10 +30,10 @@
     mix-blend-mode: multiply;
 }
 .cta-area-0 .cta-wrap1 {
-    padding: 80px 0 67px 80px;
+    padding: 70px 0 67px 80px;
 }
 .title-area0 {
-    margin-bottom: calc(var(--section-title-space) - 13px);
+   
     position: relative;
     z-index: 2;
 }

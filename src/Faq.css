@@ -7,7 +7,7 @@
     
 }
 .faq-area-2{
-    margin-top: 140px;
+    margin-top: 140px; 
 }
 .faq-thumb2 .about-counter-grid {
     border: 2px solid #e4002b; 
@@ -53,10 +53,11 @@
     font-weight: 900;
 }
 .title-area {
-    margin-bottom: calc(var(--section-title-space) - 13px);
+   
     position: relative;
     z-index: 2;
 }
+ 
 .faq-thumb2 img {
     border-radius: 5px;
 }
@@ -65,7 +66,7 @@
     font-weight: 900;
     
     margin-bottom: 0;
-    margin-top: -.25em;
+    
 }
 
 .h3, h3 {
@@ -115,9 +116,9 @@
 
 
 .title-area {
-    margin-bottom: calc(var(--section-title-space) - 13px);
-    position: relative;
-    z-index: 2;
+  margin-top: 10px;
+  z-index: 2;  position: relative;
+     
 }
 .title-area .sub-title {
     margin-top: -.2em;
@@ -297,6 +298,7 @@ p {
     bottom: 85px;
     border-radius: 5px;
 }
+ 
 
 .about-counter-grid, .about-feature-wrap {
     display: flex;

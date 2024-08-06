@@ -139,7 +139,15 @@ a.animated-buttonn.victoria-one:after {
 
 
 
+.slider-card {
+  width: 100%;
+}
 
+@media (max-width: 768px) {
+  .slider-card {
+    width: 100% !important;
+  }
+}
 
 
 

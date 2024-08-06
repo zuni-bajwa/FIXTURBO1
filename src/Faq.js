@@ -18,10 +18,10 @@ import  f3 from './img/f3.png'
          <ScrollTrigger onEnter={()=>setcount(true)} onExit={()=>setcount(true)} />
     <div class="faq-area-2 space">
         <div className='container'>
-            <div className="row gx-60 flex-row-reverse overflow-hidden">
+            <div className="row gx-60 flex-row-reverse ">
 <div className="col-xl-6">
-  <div className="faq-thumb2 mb-xl-0 mb-50">
-<div class="about-counter-grid jump" >
+  <div className="faq-thumb2  mb-xl-0 mb-50">
+<div class="about-counter-grid jump d-flex align-items-center justify-content-center" >
     <img src={ f1} />
     <div className='media-right'>
  <h3 class="about-counter">
@@ -42,12 +42,12 @@ import  f3 from './img/f3.png'
   </h4>
     </div>
 </div>
-<img src={ f2} />
+<img src={ f2}  />
   </div>
 </div>
 
 
-<div className='col-xl-6'>
+<div className='col-xl-6 sidee'>
     <div className='title-area'>
  <span className='sub-title'>
  ask anything

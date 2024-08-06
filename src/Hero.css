@@ -11,6 +11,12 @@
       content: 'Smooth Rides,\ASeamless Repairs.';
     }
   } 
+  @media (min-width: 1200px) {
+    .col-xl-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
    @keyframes  bg-anim {
     0% {
       -webkit-clip-path: inset(0 100% 0 0);
@@ -28,22 +34,22 @@
    }
   
   .hero{
-    background-size: cover;
-    position: relative;
+    
     transition: background-image 1ms ease;
-      background-repeat: no-repeat;
-      background-position: center;
-  
-      overflow-x: hidden;
-     padding: 190px 0 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      padding: 190px 0 170px;
   }
    
   .image1 {
     background-image: url('./img/hero.png');
+    
   }
   
   .image2 {
     background-image: url('./img/hero1.png');
+   
   }
  
   
@@ -226,6 +232,7 @@
     justify-content: flex-end;
    }
   
+    
   .pulse {
        
     background: #fff;
@@ -258,7 +265,7 @@
    }
    @keyframes  pulsing {
     to{
-     /* box-shadow: 0 0 0 6rem #fff;*/
+     
      opacity: 0;
     transform: scale(2);
     }
@@ -278,12 +285,7 @@
 }
 
  
-@media (min-width: 1200px) {
-    .col-xl-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-}
+ 
 
  
  
@@ -325,44 +327,8 @@ p {
 
  
 
-/*.content1:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.content1:nth-child(2) {
-  animation-delay: 1s;
-}
-
-.content1:nth-child(3) {
-  animation-delay: 1.5s;
-}
-
-.content1:nth-child(4) {
-  animation-delay: 2s;
-}
-
-.content1:nth-child(5) {
-  animation-delay: 2.5s;
-}
-
  
-
-@keyframes loop {
-  0%, 13.5% {
-    opacity: 0;
-   
-  }
   
- 
-  13.5%, 100% {
-    opacity: 1;
-   
-  }
-}
-
-.content1 {
-  animation:  loop 4s infinite;
-}*/
   .title-area1 span p{
         font-size: 22px;
         font-weight: 700;
@@ -399,13 +365,7 @@ p {
     transform: translateY(20px);
   }
 } 
-/*
  
-@keyframes showStatements {
-  0%, 10%, 100% { opacity: 0; }
-  20%, 90% { opacity: 1; }
-}*/
-
 
 
 
@@ -528,4 +488,64 @@ a.animated-button.victoria-one:after {
  -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
  transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+@media screen and (max-width: 660px) {
+  .sec-title::before{
+  
+    font-weight: 800;
+    content: '';
+
+    font-size: 50px;
+    
+     line-height: 1.20;
+    white-space: pre;
+         animation: animate 10s infinite; 
+        
+         margin: 0 0 25px 0;
+ 
+ }
+ .cta-area-0 .cta1-bg-thumb0 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+}
+ 
+}
+@media screen and (max-width:445px) {
+  .respon{
+    display: flex;
+     align-items: center;
+    
+}
+  .sec-title::before{
+  
+    font-weight: 800;
+    content: '';
+
+    font-size: 35px;
+    
+     line-height: 1.20;
+    white-space: pre;
+         animation: animate 10s infinite; 
+        
+         margin: 0 0 25px 0;
+ 
+ }
+ .navbar-right{
+  margin-right: 0px;
+  padding-right: 0px;
+ }
+ 
+}
+@media (max-width: 1200px) {
+   .side{
+     display:flex;
+     align-items: center;
+     justify-content: start;
+     margin-bottom: 20px;
+  }
 }
