@@ -84,7 +84,7 @@
     bottom: 55px;
 }
 .blog-card .blog-img .blog-date a {
-    background:  black;
+   
     height: 80px;
     width: 80px;
     border-radius: 5px;
@@ -125,6 +125,7 @@ a {
 }
 .blog-meta a, .blog-meta span {
     display: inline-block;
+      
     font-size: 14px;
     font-weight: 700;
     color: black;
@@ -211,5 +212,5 @@ a {
     transition: 1s ease;
 }
 
-
+ 
 

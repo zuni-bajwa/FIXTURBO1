@@ -6,8 +6,6 @@ import React  from 'react'
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import { faLinkedin, faTwitter, faInstagram, faFacebook  } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
-  
-
  
 const Haed = () => {
      const [index, setIndex] = useState(0);

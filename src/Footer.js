@@ -70,85 +70,61 @@ import './Footer.css'
 
 
       <footer>
-
-    <div className='container '>
-    <div className='row'>
-     
-<div className='col-md-12 part2'>
-                                <div className='row'>
-                                    <div className='col '>
-                                        <h3 className='img1'> </h3>
-                                        <ul class="footer-list mb-sm-5 mb-md-0 text-white">
-                                            <li>  <i class="fab fa-facebook"></i>            Facebook </li>
-                                            <li>< a to="#"> <i class="fab fa-instagram"></i> Instagram 
-                                            </ a></li>
-                                            <li>< a to="#"> <i class="fab fa-youtube"></i>  Youtube
-                                            </ a></li>
-                                            <li>< a > <i class="fab fa-twitter"></i>  Twitter
-                                            </ a></li>
-                                            <li>
-                                                < a to="#">
-                                                 <i class="fab fa-linkedin"></i>  Linkedin
-                                                    </ a> 
-                                        
-                                            </li>
-                                         </ul>
-                                    </div>
-
-                                    <div className='col'>
-                                        <h3> </h3>
-                                        <ul class="footer-list mb-sm-5 mb-md-0 text-white">
-                                        <li>< a to="#">Low price</ a> </li>
-                                      <li>  < a to="#">Low price</ a> </li>  
-                                     <li>  < a to="#">Low price</ a> </li>  
-                                 <li>  < a to="#">Low price</ a> 
-                                  </li>  
-                                                  </ul>
-                                    </div>
-
-
-                              
-
-
-                                    <div className='col'>
-                                        <h3> </h3>
-                                        <ul class="footer-list  mb-sm-5 mb-md- text-white">
-                                            <li>< a to="#">Low price</ a></li>
-                                            <li>< a to="#">Low price</ a></li>
-                                            <li>< a to="#">Low price</ a></li>
-                                            <li>< a to="#">Low price</ a></li>
-                                            <li>< a to="#">Low price</ a></li>
-                                         </ul>
-                                    </div>
-
-
-
-
-
-                                    <div className='col'>
-                                        <h3> </h3>
-
-        <div class="widget footer-widget widget-newsletter">
- <h3 class="widget_title text-white">
-Get In Touch
- </h3>
- <p class="footer-text mb-50 text-white">
- Lorem Ipsum is simply is dumiomy is text Lorem Ipsum is simply
- </p>
- <form class="newsletter-form">
-  <div class="form-group">
-    <input type='text' className='form-control'/>
-  </div>
-  
- </form>
+      <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Compressions</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
         </div>
-                                       
-                                    </div>
-                                </div>
-                            </div>
- 
-    </div>
-    </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Free Designs</a></li>
+            <li><a href="#">Latest Designs</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Popular Designs</a></li>
+            <li><a href="#">Art Skills</a></li>
+            <li><a href="#">New Uploads</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Customer Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Media Kit</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose
+            of news, updates, helpful tips, and
+            exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required/>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+   
     <div className='copyright-wrap'>
   <div className='container'>
     <div class="row gy-3 justify-content-md-between justify-content-center">

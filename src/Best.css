@@ -34,7 +34,7 @@
     vertical-align: middle;
 }
  .shape-mockup .spin2 {
-    animation: spin 15s linear infinite;
+    animation: spin 10s linear infinite;
 }
 @keyframes spin {
     from {

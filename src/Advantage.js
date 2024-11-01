@@ -5,6 +5,12 @@ import p2 from './img/p2.png'
 import { useState } from 'react'
 import p3 from './img/p3.png'
 import ScrollTrigger from 'react-scroll-trigger'
+import card1 from './img/card1.png';
+import card2 from './img/card2.png';
+import card3 from './img/card3.png';
+import card4 from './img/card4.png';
+import card5 from './img/card5.png';
+import card6 from './img/card6.png';
 import CountUp from 'react-countup'
 
  import p4 from './img/p4.png'
@@ -158,14 +164,14 @@ const Advantage = () => {
         {data.map((d) => (
           <div class="card slider-card " style={{ width: '336px'  }} >
             <div>
-            <img src= {d.img} class="card-img-top" alt="..."  />
-
+            <img src={d.img}  class="card-img-top" alt="..."  />
+    
             </div>
   
   <div class="card-body flex flex-col items-center justify-center p-4 to d-flex flex-column align-items-center justify-content-center ">
     <h2 class="card-title"> {d.name}</h2>
     <p class="card-text">120 kins of automatic lights.</p>
-    <a href="#" class="btn btn-primary  btn-sm  animated-buttonn victoria-one "> Shop Now</a>
+    <a href="#" class="btn btn-primary  btn-sm  animated-buttonn victoria-one"> Shop Now</a>
   </div>
 </div>
 
@@ -205,27 +211,29 @@ const Advantage = () => {
 const data = [
     {
       name: `Car Black Light`,
-      img:  `/card1.png`,
+      img:  require('./img/card1.png'),
+ 
      },
     {
       name: `Car Steering Wheel`,
-      img:  `/card2.png`,
+      img : require('./img/card2.png'),
+    
      },
     {
       name: `Car Body & Engine`,
-      img:  `/card3.png`,
+     img : require('./img/card3.png'),
      },
     {
       name: `Car Black Light`,
-      img:  `/card4.png`,
+   img : require('./img/card4.png'),
      },
     {
       name: `Car Steering Wheel`,
-      img:  `/card5.png`,
+   img : require('./img/card5.png'),
      },
      {
         name: `Car Body & Engine `,
-        img:  `/card6.png`,
+      img : require('./img/card6.png'),
        },
       
   ];
